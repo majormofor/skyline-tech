@@ -1,0 +1,51 @@
+table,
+th,
+td {
+  border-bottom: 1px solid #dedede;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+}
+table {
+  width: 50%;
+  font-size: 20px;
+}
+th {
+  background-color: #1f90fd;
+  color: white;
+}
+
+.fail,
+.passed,
+.blue {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.fail {
+  background-color: #ff0000;
+  color: white;
+}
+
+.passed {
+  background-color: #19785c;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  width: 87%;
+}
+
+table {
+  width: 89%;
+}
